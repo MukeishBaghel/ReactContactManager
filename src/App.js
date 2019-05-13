@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contacts from './components/contacts/Contacts';
 import { Provider } from './context';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/layout/Header';
 import NotFound from './components/pages/NotFound';
 import AddContact from './components/contacts/AddContact';
